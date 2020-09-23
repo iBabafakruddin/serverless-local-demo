@@ -1,0 +1,17 @@
+= sls-offline example
+1. install serverless
+    "npm install -g serverless"
+2. install dependencies
+    "npm install"
+3. install local-db
+    "npm install-local-db"
+4. run the application
+    "npm start"
+
+Test with Curl:
+curl -XPOST localhost:3000/dev/persons
+curl localhost:3000/dev/persons
+
+This is the example source code for the blog post on :
+
+Credits: https://blog.codecentric.de/en/2019/08/developing-aws-locally-with-serverless-offline-plugins/
